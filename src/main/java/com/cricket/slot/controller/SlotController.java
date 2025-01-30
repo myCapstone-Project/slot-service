@@ -9,7 +9,7 @@ import com.cricket.slot.entity.Slot;
 import com.cricket.slot.service.SlotService;
 
 import java.util.List;
-
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/slots")
 public class SlotController {
